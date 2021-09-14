@@ -1,0 +1,64 @@
+.filterDiv {
+  
+  display: none;
+}
+
+.show {
+  display: block;
+}
+#myBtnContainer{
+    border-bottom: 1px solid #b9b9b9;
+    width: 96.5%;
+    margin: 0 auto;
+	
+}
+.tabby {
+	padding-top:50px;
+}
+/* Style the buttons */
+#myBtnContainer .btn {
+    border: none;
+    outline: none;
+    color: #877577;
+    text-transform: capitalize;
+    font-size: 14px;
+    background: transparent;
+    padding: 0px 25px 25px 25px;
+    cursor: pointer;
+    border-radius: 0;
+    font-weight: 600;
+}
+#myBtnContainer
+.btn:hover {
+font-weight: 600;
+color: #34333c;
+border-bottom:2px solid #196acc;
+}
+#myBtnContainer
+.btn.active {
+font-weight: 600;
+border-bottom:2px solid #196acc;
+  color: #34333c;
+}
+.btn.focus, .btn:focus{
+	box-shadow:0px!important;
+}
+.radar a {
+	color:#34333c;
+	font-size:14px;
+}
+.radar img {
+	    padding-right: 13px;
+    position: relative;
+    top: 4px;
+}
+.htitle {
+	color:#34333c;
+	font-weight:600;
+font-size:18px;
+padding-bottom:30px;}
+.htitle a {
+	color:#b9b9b9;
+	font-size:14px;
+	padding-right:20px;
+}
